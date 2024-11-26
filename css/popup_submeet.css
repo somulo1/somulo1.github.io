@@ -1,0 +1,79 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #112e42;
+}
+
+/* Container styling for the form */
+.confirmation {
+    border: 1px solid #ccc;
+    padding: 30px;
+    margin: 20px;
+    background-color: #081b29;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;  /* Maximum width for the form */
+    box-sizing: border-box;
+}
+
+/* Title styling */
+h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #ffffff;
+}
+
+/* List styling */
+ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    color: #ffffff;
+}
+p{
+    color: #ffffff;   
+}
+li {
+    margin-bottom: 10px;
+}
+
+/* Button styling */
+.back-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;  /* Center the button */
+    display: block;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .confirmation {
+        padding: 20px;
+        max-width: 90%;  /* Adjust form width for smaller screens */
+    }
+
+    h2 {
+        font-size: 1.5em;  /* Reduce title size on small screens */
+    }
+
+    .back-button {
+        width: 100%;  /* Ensure button is full width on smaller screens */
+        font-size: 1.2em;
+    }
+}
